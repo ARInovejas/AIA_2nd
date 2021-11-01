@@ -1,0 +1,161 @@
+.titlePage {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+	background: url('./bg-rbw.jpg') no-repeat center center fixed;
+	/* background-color: rgb(179, 227, 233); */
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
+	z-index: -1;
+	  
+	/* Set up proportionate scaling */
+	width: auto;
+	height: auto;
+	  
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.contentsDiv{
+	background-color: rgb(255, 0, 0);
+	z-index: 2;
+}
+
+.title{
+	text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	position: fixed;
+    left: 50%;
+    top: 14%;
+    transform: translate(-50%, -14%);
+}
+
+.profilePhoto {
+	position: fixed;
+    left: 50%;
+    top: 23%;
+    transform: translate(-50%, -23%);
+}
+
+.about{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.getStarted{
+	position: fixed;
+    left: 50%;
+    top: 73%;
+    transform: translate(-50%, -73%);
+}
+
+.loginbutton{
+	position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);
+}
+
+.logoutbutton{
+	position: absolute;
+    left: 80%;
+    top: 80%;
+    transform: translate(-80%, -80%);
+}
+
+#selectButton{
+	z-index: 2;
+}
+
+.logo {
+	position: absolute;
+    left: 75%;
+    top: 1%;
+	transform: translate(-75%, -1%);
+	z-index: 1;
+}
+
+.chs_logo {
+	position: absolute;
+    left: 85%;
+    top: 1%;
+	transform: translate(-85%, -1%);
+	z-index: 1;
+}
+
+.footer {
+	position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: right;
+}
+
+.profileTable{
+	position: fixed;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+	max-width: 40%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: rgba(0, 0, 0, 0);
+	border: 0px;
+}
+
+.profileTable2 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: rgba(0, 0, 0, 0);
+	border: 0px;
+	
+}
+
+.profileData{
+	position: fixed;
+    left: 50%;
+    top: 43%;
+    transform: translate(-50%, -43%);
+	max-width: 50%;
+	border: 0px;
+}
+
+.profileData2 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: rgba(0, 0, 0, 0);
+	border: 0px;
+	
+}
+
+.links {
+	position: fixed;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%, -63%);
+}
+.links2 {
+	position: fixed;
+    left: 50%;
+    top: 68%;
+    transform: translate(-50%, -68%);
+}
+
+.iconButton {
+	background-color: rgba(0, 0, 0, 0);
+	border: 0px;
+}
+
+.deleteFileButton {
+	background-color: rgba(0, 0, 0, 0);
+	border: 0px;
+}
+
+#stick{
+	background-color: #eee;
+	position: sticky;
+	top: -1px;
+	z-index: 1;
+}

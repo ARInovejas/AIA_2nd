@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"restoreTerminals.runOnStartup": true,   // true is the default
+          // set to false if using a keybinding or command palette
+
+		"restoreTerminals.terminals": [
+			{
+			"splitTerminals": [
+				{
+				"name": "client",
+				"commands": [
+					"cd client"
+				]
+				}
+			]
+			},
+			{
+			"splitTerminals": [
+				{
+				"name": "server",
+				"commands": [
+					"cd server"
+				]
+				}
+			]
+			}
+		]
+	}
+}
